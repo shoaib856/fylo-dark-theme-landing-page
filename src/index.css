@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply bg-[hsl(217,28%,15%)];
+}
+#root {
+  @apply z-10 relative overflow-hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[hsl(176,68%,64%)];
+}
+::-webkit-scrollbar {
+  @apply w-0.5;
+}
+
+.icon-social {
+  @apply border hover:border-[hsl(176,68%,64%)] rounded-full p-1 w-7;
+}
+.icon-social:hover path {
+  @apply fill-[hsl(176,68%,64%)];
+}
