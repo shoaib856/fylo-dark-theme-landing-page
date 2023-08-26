@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import BenefitsSection from "./components/BenefitsSection";
 import ProductiveSection from "./components/ProductiveSection";
-import FeedbackSection from "./components/feedbackSection";
+import FeedbackSection from "./components/FeedbackSection";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
 
